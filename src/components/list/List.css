@@ -1,0 +1,15 @@
+.empty__list {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link__button {
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(3, 172, 14);
+  color: white;
+  padding: 10px 10px;
+}

@@ -1,0 +1,89 @@
+.card {
+  padding: 10px;
+  width: 200px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  -webkit-box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0px;
+  -moz-box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0px;
+  box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0px;
+  border-radius: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.04);
+}
+
+.card__image > img {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.card__image {
+  text-align: center;
+}
+.card__image > p {
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.card__detail {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.card__detailAbility {
+  text-align: center;
+}
+.btn__pickme > button {
+  border-radius: 3px;
+  width: 5rem;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  background-color: darkgray;
+}
+
+.btn__pickme {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    max-width: fit-content;
+    max-height: 150px;
+    width: auto;
+  }
+
+  .card__image > img {
+    width: 50%;
+  }
+  .card__detailAbility {
+    font-size: 0.6rem;
+  }
+
+  .card__image > p {
+    font-size: 0.65rem;
+  }
+  .card_detailTitle {
+    font-size: 0.7rem;
+  }
+
+  .btn__pickme > button {
+    width: 100%;
+    font-size: 0.4rem;
+  }
+
+  .btn__pickme {
+    justify-content: center;
+  }
+}

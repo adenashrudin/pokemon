@@ -1,0 +1,42 @@
+.cardList {
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.content {
+  display: flex;
+  padding: 5px;
+}
+
+.content__left {
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  text-transform: capitalize;
+  flex-direction: column;
+  -webkit-box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0px;
+  -moz-box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0px;
+  box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0px;
+}
+
+.content__left > img {
+  max-width: 100px;
+  object-fit: contain;
+}
+
+.content__right {
+  display: flex;
+  text-transform: capitalize;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.content__right > button {
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding: 10px 20px;
+}
